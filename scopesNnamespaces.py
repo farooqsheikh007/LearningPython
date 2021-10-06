@@ -44,6 +44,10 @@ def outer_function_again():
   print("inside outer function c: ",c)
 outer_function_again()
 
+# non local cannot be used to change global scopes but can be used in chained function example
 
+# outer a
+#   inner_1
+#     inner_2 -> here you can change var a using non local key word
 
 print("____________________________________________/n")
